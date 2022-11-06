@@ -1,0 +1,95 @@
+/*
+This is basically the Global style sheet that is being used to apply the necessary changes to all of the component over here
+*/
+*
+{
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#333;
+}
+.navbar
+{
+  padding: 20px;
+  /*
+  flex basically focusses on the display the elements side by side over here.
+  */
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  outline: 5px dotted green;
+
+
+}
+.navbar h1
+{
+
+  color: rgb(12, 172, 118);
+}
+.navbar .links{
+  /*
+  links is basically considered to be the child of navbar class.
+  */
+  margin-left: auto;
+
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover 
+{
+  color: rgb(12, 172, 118);
+  
+}
+.content
+{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px; 
+}
+
+.create
+{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 25px;
+  color: rgb(12, 172, 118);
+  margin-bottom:30px;
+}
+.create input,.create textarea,.create select{
+  width:100%;
+  padding:6px 10px;
+  margin:10px 0px;
+  border:1px solid black;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button{
+  background-color: rgb(12, 172, 118);
+  color: #f2f2f2;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button{
+    background-color: rgb(12, 172, 118);
+    color: #f2f2f2;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}

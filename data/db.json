@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "BLOG 1:Life Cycle Methods for Class Based Components",
+      "body": "Lifecycle methods for class-based components use a form of hooking that allows the execution of code at set points during a component's lifetime they are as followed:shouldComponentUpdate allows the developer to prevent unnecessary re-rendering of a component by returning false if a render is not required,componentDidMount is called once the component has mounted (the component has been created in the user interface, often by associating it with a DOM node). This is commonly used to trigger data loading from a remote source via an API.componentWillUnmount is called immediately before the component is torn down or unmounted. This is commonly used to clear resource-demanding dependencies to the component that will not simply be removed with the unmounting of the component.",
+      "author": "Suraj KH",
+      "id": 1
+    },
+    {
+      "title": "BLOG 2:Rules for React Hooks",
+      "body": "There are rules of hooks which describe the characteristic code pattern that hooks rely on. It is the modern way to handle state with React.Hooks should only be called at the top level (not inside loops or if statements).Hooks should only be called from React function components and custom hooks, not normal functions or class components.Although these rules can't be enforced at runtime, code analysis tools such as linters can be configured to detect many mistakes during development. The rules apply to both usage of hooks and the implementation of custom hooks,which may call other hooks.",
+      "author": "Suraj KH",
+      "id": 2
+    }
+  ]
+}
